@@ -4,8 +4,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Boilerplate",
-    description: "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
+    title: "Jamastek",
+    description: "We Built Fast Site and Apps",
     author: "@mhmmr",
     siteUrl: "https://github.com/mhmmr",
     image: "https://res.cloudinary.com/muhrusdi/image/upload/v1604903512/template-awwwara.jpg"
