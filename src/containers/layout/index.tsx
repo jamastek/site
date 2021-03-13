@@ -1,12 +1,14 @@
 import React from "react"
 import SEO from "components/seo"
 import { LayoutType } from "types"
+import Nav from "components/navigation"
 
 const Layout: React.FC<LayoutType> = ({children}) => {
   return (
     <>
       <SEO/>
-      <div className="container">
+      <Nav/>
+      <div>
         {children}
       </div>
     </>

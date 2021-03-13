@@ -1,11 +1,12 @@
 import React from "react"
 import Layout from "containers/layout"
+import Banner from "components/banner"
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <Layout>
       <div>
-        <h1 className="text-2xl font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, voluptatem!</h1>
+        <Banner/>
       </div>
     </Layout>
   )
