@@ -8,6 +8,9 @@ const Home: React.FC = () => {
       <div>
         <div className="justify-center sm:flex-row flex-col flex min-h-screen items-center">
           <div className="sm:w-1/2 sm:px-8">
+            <div className="text-center sm:text-right">
+              <span className="uppercase mb-4 inline-block rounded-md bg-secondary-900 text-xs py-1 px-2">Coming Soon</span>
+            </div>
             <div>
               <svg className="m-auto sm:ml-auto sm:mr-0" width="323" height="58" viewBox="0 0 683 98" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.000216454 12.5904C0.000141595 34.8081 2.47657e-05 69.4823 2.47657e-05 69.4823L0 97.2958C20.6733 97.2958 26.3949 90.5335 26.3949 70.0221V0L0.000216454 12.5904Z" fill="white"/>
