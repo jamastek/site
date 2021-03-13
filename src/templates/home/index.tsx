@@ -6,10 +6,10 @@ const Home: React.FC = () => {
   return (
     <Layout>
       <div>
-        <div className="flex min-h-screen items-center">
-          <div className="w-1/2 px-8">
+        <div className="justify-center sm:flex-row flex-col flex min-h-screen items-center">
+          <div className="sm:w-1/2 sm:px-8">
             <div>
-              <svg className="ml-auto" width="383" height="98" viewBox="0 0 683 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg className="m-auto sm:ml-auto sm:mr-0" width="323" height="58" viewBox="0 0 683 98" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.000216454 12.5904C0.000141595 34.8081 2.47657e-05 69.4823 2.47657e-05 69.4823L0 97.2958C20.6733 97.2958 26.3949 90.5335 26.3949 70.0221V0L0.000216454 12.5904Z" fill="white"/>
                 <path d="M66.5676 96.9028C78.1188 96.9028 86.1074 92.4227 90.6415 83.9483H91.2892V95.4994H116.119V39.1472C116.119 21.6045 100.519 11.5109 79.4142 11.5109C57.1216 11.5109 44.491 22.7381 42.3859 37.8517L66.7296 38.7153C67.8631 33.4256 72.2352 30.187 79.1983 30.187C85.6756 30.187 89.7779 33.3176 89.7779 38.8773V39.1472C89.7779 44.221 84.2722 45.3005 70.1301 46.542C53.3432 47.9454 39.3092 54.1528 39.3092 72.5051C39.3092 88.9142 50.6983 96.9028 66.5676 96.9028ZM74.7182 79.6301C68.6188 79.6301 64.3006 76.7153 64.3006 71.2096C64.3006 65.8659 68.5108 62.6272 76.0136 61.4937C80.9256 60.792 86.971 59.7125 89.9398 58.1471V66.0278C89.9398 74.1244 83.1386 79.6301 74.7182 79.6301Z" fill="white"/>
                 <path d="M132.258 95.4994H158.653V46.4341C158.653 38.2295 163.457 32.9938 170.366 32.9938C177.221 32.9938 181.755 37.7977 181.755 45.4625V95.4994H207.124V46.0022C207.124 38.0676 211.497 32.9938 218.783 32.9938C225.477 32.9938 230.227 37.4738 230.227 45.7323V95.4994H256.622V39.6869C256.622 22.1443 245.826 11.5109 230.173 11.5109C217.92 11.5109 208.258 17.9342 205.181 27.812H204.318C202.105 17.8802 193.198 11.5109 181.701 11.5109C170.366 11.5109 161.73 17.7183 158.275 27.812H157.357V12.5904H132.258V95.4994Z" fill="white"/>
@@ -20,19 +20,19 @@ const Home: React.FC = () => {
                 <path d="M600.43 69.1045C600.43 83.682 612.247 95.4994 626.825 95.4994V95.4994V70.6159V56L632.169 64.1386L651.924 95.4994H682.421L651.816 48.7011L681.234 12.5904H651.33L628.012 42.2778L626.825 43.7094V42.2778V0L600.43 12.5904V69.1045Z" fill="white"/>
               </svg>
             </div>
-            <div className="text-right">
+            <div className="text-center sm:text-right mt-3">
               <span className="text-gray-400 text-xl">We Build Fast Site and Apps</span>
             </div>
             <div>
-              <form className="pt-12 text-right">
-                <div>
-                  <input type="email" placeholder="Type your email" className="px-2 py-1 rounded-md bg-transparent text-right uppercase placeholder-white border border-transparent focus:border-secondary-900 focus:outline-none"/>
-                  <button className="uppercase font-semibold pl-2 text-secondary-900">Send</button>
+              <form className="pt-12 text-center sm:text-right">
+                <div className="relative m-auto sm:ml-auto sm:mr-0" style={{maxWidth: 300, height: 42}}>
+                  <input type="email" placeholder="Type your email" className="w-full focus:ring-2 focus:ring-offset-secondary-900 absolute top-0 bottom-0 right-0 left-0 px-2 py-1 rounded-lg bg-transparent uppercase placeholder-white border border-gray-800 focus:outline-none"/>
+                  <button className="absolute right-2 top-2 uppercase font-semibold pl-2 text-secondary-900">Send</button>
                 </div>
               </form>
             </div>
           </div>
-          <div className="w-1/2 px-8">
+          <div className="sm:w-1/2 sm:px-8 mt-10 sm:mt-0">
             <div>
               <div>
                 <StaticImage src="../../images/code-1.png" width={350} alt="code"/>
