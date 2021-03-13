@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: "Jamastek",
-    description: "We Built Fast Site and Apps",
+    description: "We Build Fast Site and Apps",
     author: "@mhmmr",
     siteUrl: "https://github.com/mhmmr",
     image: "https://res.cloudinary.com/muhrusdi/image/upload/v1604903512/template-awwwara.jpg"
@@ -27,6 +27,7 @@ module.exports = {
       },
     },
     "gatsby-transformer-sharp",
+    "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     {
       resolve: "gatsby-plugin-manifest",
