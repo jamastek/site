@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "containers/layout"
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <Layout>
       <div>
