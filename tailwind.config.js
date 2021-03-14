@@ -1,3 +1,6 @@
+const colors = require("tailwindcss/colors")
+
+
 module.exports = {
   future: {
     // removeDeprecatedGapUtilities: true,
@@ -8,6 +11,14 @@ module.exports = {
     container: {
       center: true,
       padding: "1.5rem"
+    },
+    extend: {
+      fontSize: {
+        tiny: "0.94rem"
+      },
+      colors: {
+        blueGray: colors.blueGray
+      },
     }
   },
   variants: {},

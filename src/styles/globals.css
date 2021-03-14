@@ -12,4 +12,8 @@
   @supports (font-variation-settings: normal) {
     html { font-family: 'Inter var', sans-serif; }
   }
+
+  body {
+    @apply text-blueGray-600;
+  }
 }
