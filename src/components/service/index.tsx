@@ -17,7 +17,7 @@ const Service: React.FC<PropTypes> = ({
       </div>
       <h3 className="mt-6 font-bold text-gray-900">{title}</h3>
       <p className="mt-2">{description}</p>
-      <div className="mt-4">
+      <div className="mt-6">
         <a href="#" className="inline-block">
           <div className="flex items-center font-medium">
             <span>Learn more </span>

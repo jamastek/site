@@ -9,7 +9,7 @@ const Services: React.FC = () => {
       title="Deliver a fast app like experience in the browser"
       description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ut corporis quisquam enim sint dolorum quibusdam, est blanditiis."
     >
-      <div className="flex mt-12 -mx-4">
+      <div className="flex -mx-4">
         <div className="w-1/3 px-4">
           <Service
             title="JAMStack Website"

@@ -1,6 +1,5 @@
 const colors = require("tailwindcss/colors")
 
-
 module.exports = {
   future: {
     // removeDeprecatedGapUtilities: true,
@@ -17,7 +16,10 @@ module.exports = {
         tiny: "0.94rem"
       },
       colors: {
-        blueGray: colors.blueGray
+        blueGray: colors.blueGray,
+        blue: {
+          light: "#56CCF2",
+        },
       },
     }
   },
