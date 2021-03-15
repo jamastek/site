@@ -7,7 +7,7 @@ const Newsletter: React.FC = () => {
   return (
     <div className="py-12">
       <Container>
-        <div className="bg-black rounded-lg overflow-hidden relative">
+        <div className="bg-black rounded-xl overflow-hidden relative">
           <div className="absolute inset-0 z-10">
             <div className="flex justify-center text-center items-center" style={{height: 440}}>
               <div>

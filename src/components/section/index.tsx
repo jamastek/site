@@ -8,7 +8,7 @@ type PropTypes = {
   badge?: string,
   title?: string,
   description?: string,
-  colors?: [],
+  colors?: [] | any,
 }
 
 const Section: React.FC<PropTypes> = (props) => {
