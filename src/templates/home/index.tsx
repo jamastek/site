@@ -3,6 +3,7 @@ import Layout from "containers/layout"
 import Banner from "components/banner"
 import Services from "./services"
 import Blogs from "./blog"
+import Newsletter from "components/newsletter"
 
 const Home: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const Home: React.FC = () => {
         <Banner/>
         <Services/>
         <Blogs/>
+        <Newsletter/>
       </div>
     </Layout>
   )
