@@ -16,5 +16,6 @@ export type SeoType = {
 }
 
 export type LayoutType = {
-  children: React.ReactNode
+  children: React.ReactNode,
+  type?: string,
 }

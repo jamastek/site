@@ -4,11 +4,11 @@ import { LayoutType } from "types"
 import Nav from "components/navigation"
 import Footer from "components/footer"
 
-const Layout: React.FC<LayoutType> = ({children}) => {
+const Layout: React.FC<LayoutType> = ({children, type}) => {
   return (
     <>
       <SEO/>
-      <Nav/>
+      <Nav type={type}/>
       <div>
         {children}
       </div>
@@ -18,3 +18,7 @@ const Layout: React.FC<LayoutType> = ({children}) => {
 }
 
 export default Layout
+
+Layout.defaultProps = {
+  type: "primary"
+}

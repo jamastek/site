@@ -18,10 +18,10 @@ const Newsletter: React.FC = () => {
                 <div>
                   <div className="flex -mx-2 justify-center items-center mt-8">
                     <div className="px-2">
-                      <input type="text" className="py-2 px-4 rounded-lg" placeholder="Enter your email"/>
+                      <input type="text" className="py-2 px-4 rounded-lg" style={{height: 46}} placeholder="Enter your email"/>
                     </div>
                     <div className="px-2">
-                      <button className="py-2 px-4 rounded-lg font-semibold bg-indigo-500 text-white">Notify me</button>
+                      <button style={{height: 46}} className="py-2 px-4 rounded-lg font-semibold bg-indigo-500 text-white">Notify me</button>
                     </div>
                   </div>
                 </div>

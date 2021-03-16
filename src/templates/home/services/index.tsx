@@ -8,9 +8,10 @@ const Services: React.FC = () => {
       badge="Services"
       title="Deliver a fast app like experience in the browser"
       description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos ut corporis quisquam enim sint dolorum quibusdam, est blanditiis."
+      link="Learn more"
     >
-      <div className="flex -mx-4">
-        <div className="w-1/3 px-4">
+      <div className="grid grid-cols-3 gap-12">
+        <div>
           <Service
             title="JAMStack Website"
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus accusamus nam hic cumque velit debitis exercitationem soluta."
@@ -26,7 +27,7 @@ const Services: React.FC = () => {
               </svg>}
           />
         </div>
-        <div className="w-1/3 px-4">
+        <div>
           <Service
             icon={<svg width="43" height="32" viewBox="0 0 43 32" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="38" height="27" rx="3" fill="#2F80ED" fillOpacity="0.5"/>
@@ -38,7 +39,7 @@ const Services: React.FC = () => {
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus accusamus nam hic cumque velit debitis exercitationem soluta."
           />
         </div>
-        <div className="w-1/3 px-4">
+        <div>
           <Service
             icon={<svg width="27" height="32" viewBox="0 0 27 31" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M4.84093 9.80674C4.93327 9.33797 5.3443 9 5.82208 9H21.177C21.6548 9 22.0658 9.33797 22.1582 9.80674L26.0976 29.8067C26.2193 30.4247 25.7463 31 25.1164 31H1.88269C1.25283 31 0.779815 30.4247 0.901539 29.8067L4.84093 9.80674Z" fill="#96E5FF"/>

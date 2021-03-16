@@ -9,10 +9,11 @@ type PropTypes = {
   title?: string,
   description?: string,
   colors?: [] | any,
+  link?: any
 }
 
 const Section: React.FC<PropTypes> = (props) => {
-  const { children, badge, title, description, colors } = props
+  const { children, badge, title, description, colors, link } = props
   return (
     <SectionStyled className="py-28" color={colors[0]}>
       <Container>
@@ -31,18 +32,22 @@ const Section: React.FC<PropTypes> = (props) => {
                 <p className="mt-8 text-lg">{description}</p>
               ) : null
             }
-            <div className="mt-8">
-              <a href="#" className="inline-block px-4 bg-opacity-30 py-1 text-gray-900 rounded-full" style={{background: `${colors[1]}33`}}>
-                <div className="flex items-center font-medium">
-                  <span>Explore more </span>
-                  <span>
-                    <BiChevronRight size={22}/>
-                  </span>
+            {
+              link ? (
+                <div className="mt-8 mb-14">
+                  <a href="#" className="inline-block px-4 bg-opacity-30 py-1 text-gray-900 rounded-full" style={{background: `${colors[1]}33`}}>
+                    <div className="flex items-center font-medium">
+                      <span>Explore more </span>
+                      <span>
+                        <BiChevronRight size={22}/>
+                      </span>
+                    </div>
+                  </a>
                 </div>
-              </a>
-            </div>
+              ) : null
+            }
           </div>
-          <div className="mt-14">
+          <div>
             {children}
           </div>
         </div>
