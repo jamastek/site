@@ -25,7 +25,7 @@ const Banner: React.FC = () => {
         </div>
       </Container>
       <Line/>
-      <Particles height={600} params={config} className="absolute z-10 left-0 right-0 top-0"/>
+      <Particles height="600" params={config} className="absolute z-10 left-0 right-0 top-0"/>
     </BannerStyled>
   )
 }
